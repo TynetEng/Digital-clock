@@ -1,0 +1,26 @@
+.parent{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 10px solid green;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 8px 8px 8px grey;
+}
+.animate{
+    border: 10px solid red;
+}
+#time{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+@media (max-width:760px){
+    .parent{
+        margin: auto !important;
+        margin-top: 150px !important;
+    }
+}
